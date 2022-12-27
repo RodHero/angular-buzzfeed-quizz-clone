@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .quizz_container {
   width: 80%;
   margin: auto;
@@ -6,10 +7,20 @@
 }
 
 .quizz_logo {
+=======
+.quizz__container{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.quizz_logo{
+>>>>>>> 30a91d503948eaf408d0fa3354a84a545a697d0f
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   margin-bottom: 5vw;
 }
 
@@ -33,20 +44,55 @@
 }
 
 .quizz_options {
+=======
+  margin-bottom: 10px;
+}
+
+.quizz_logo > h3{
+  margin-top: 20px;
+}
+
+.quizz_questions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #4224d9;
+  border-radius: 8px;
+  background-color: #644ED2;
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Segoe UI';
+  margin-bottom: 20px;
+}
+
+.quizz_options{
+>>>>>>> 30a91d503948eaf408d0fa3354a84a545a697d0f
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+<<<<<<< HEAD
 }
 
 .btn-option {
   background-color: transparent;
   border-radius: 0.5vw;
   border: 0.1vw solid #18ab29;
+=======
+  margin-bottom: 20px;
+}
+
+.btn-option{
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #18ab29;
+>>>>>>> 30a91d503948eaf408d0fa3354a84a545a697d0f
   width: 50%;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
+<<<<<<< HEAD
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5vw;
   padding: 0.5vw 3vw;
@@ -70,6 +116,30 @@
   background-color: rgb(33,2,57);
   border-radius: 1vw;
   padding: 3vw;
+=======
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.btn-option:hover{
+  background-color: #5cbf2a;
+}
+
+.btn-option:active{
+  position: relative;
+  top:1px;
+}
+
+.quizz_results{
+  width: 100%;
+  height: 350px;
+  background-color: #1F0539;
+  border-radius: 10px;
+  padding: 30px;
+>>>>>>> 30a91d503948eaf408d0fa3354a84a545a697d0f
   display: flex;
   flex-direction: column;
   justify-content: center;

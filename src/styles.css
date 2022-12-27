@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -9,4 +10,16 @@
 
 body {
   background-color: #1f1147;
+=======
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  box-sizing: border-box;
+  color:antiquewhite;
+}
+
+body{
+  background-color: #1F1147;
+>>>>>>> 30a91d503948eaf408d0fa3354a84a545a697d0f
 }
