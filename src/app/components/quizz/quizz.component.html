@@ -22,7 +22,7 @@
     <p>{{answerSelected}}</p>
   </div>
   <div *ngIf=finished class="quizz_back">
-    <button>Fazer novamente</button>
+    <button (click)="refresh()">Fazer novamente</button>
 
   </div>
 </div>
